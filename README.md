@@ -10,6 +10,8 @@ You are not allowed to collaborate during the sprint challenge. However, you are
 
 _You have **three hours** to complete this challenge. Plan your time accordingly._
 
+SMALL CHANGE :) 
+
 ## Introduction
 
 This is a basic todo database scheme with users and a todo list. Users have a one to many relationship to todo list. One user can have many todo items while a todo item only matches to one user. CRUD operations are available to display and manipulate this data.
