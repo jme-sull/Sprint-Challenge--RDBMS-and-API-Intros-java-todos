@@ -44,6 +44,10 @@ public class User extends Auditable
     @Email
     private String primaryemail;
 
+    @OneToMany
+    @JsonIgnoreProperties("userid")
+    private List<Todo> todos = new ArrayList<>();
+
     /**
      * Default constructor used primarily by the JPA.
      */
