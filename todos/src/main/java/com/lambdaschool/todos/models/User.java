@@ -39,8 +39,7 @@ public class User extends Auditable
     /**
      * Primary email account of user. Could be used as the userid. Cannot be null and must be unique.
      */
-    @Column(nullable = false,
-        unique = true)
+    @Column(nullable = false)
     @Email
     private String primaryemail;
 
